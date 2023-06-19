@@ -481,7 +481,7 @@ class Search
     /**
      * @return bool|int
      */
-    public function isTrackTotalHits()
+    public function getTrackTotalHits()
     {
         return $this->trackTotalHits;
     }
